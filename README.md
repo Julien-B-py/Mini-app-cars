@@ -56,8 +56,6 @@ Avec vos connaissances HTML et CSS, vous pouvez maintenant **créer une mini App
 - puissance
 - prix
 
-##### Pour les plus téméraires :
-
 Faire en sorte que :
 
 - les véhicules soient filtrés du moins cher au plus cher
