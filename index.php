@@ -13,7 +13,7 @@
 
 <body>
 
-    <div id="root">
+    <main>
 
         <?php
 
@@ -32,7 +32,7 @@
 
             <!-- Display every single car in the HTML -->
             <div class='car'>
-                <img src=<?= $car['img'] ?> alt=<?= "{$car['brand']}-{$car['model']}" ?>>
+                <img src=<?= $car['img'] ?> alt="<?= $car['brand'] ?> <?= $car['model'] ?>">
                 <div class='right-part'>
                     <div>
                         <h2><?= $car['brand'] ?></h2>
@@ -42,7 +42,7 @@
                         <div><?= "{$car['weight']} kg" ?></div>
                         <div><?= "{$car['ratio']} kg/ch" ?></div>
                     </div>
-                    <a href=#><button>Voir l'annonce</button></a>
+                    <a href=""><button>Voir l'annonce</button></a>
                 </div>
 
             </div>
@@ -52,7 +52,10 @@
         }
         ?>
 
-    </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="./app.js"></script>
 
 </body>
 
