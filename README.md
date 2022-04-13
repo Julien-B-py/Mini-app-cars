@@ -47,7 +47,7 @@ $cars = [
 ];
 ```
 
-Avec vos connaissances HTML et CSS, vous pouvez maintenant **créer une mini App avec ces 6 véhicules** cités ci-dessus, c'est à dire un affichage complet tel un site **"de petites annonces auto"** avec :
+Avec vos connaissances HTML et CSS, vous pouvez maintenant **créer une mini App avec ces 5 véhicules** cités ci-dessus, c'est à dire un affichage complet tel un site **"de petites annonces auto"** avec :
 
 - image
 - marque
